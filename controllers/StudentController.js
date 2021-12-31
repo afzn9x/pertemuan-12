@@ -38,7 +38,7 @@ class StudentController {
     const insert = Student.create(name, nim, prodi, address); 
     const data = {
       message: "Menambahkan data student",
-      data: insert,
+      data: insert_data,
     };
 
     res.json(data);
